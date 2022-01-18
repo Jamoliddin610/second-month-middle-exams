@@ -1147,3 +1147,6 @@ sup {
     background-color: transparent;
     color: var(--text-main);
 }
+.search-btn:hover .bx-search{
+    color: #0057FF;
+}
