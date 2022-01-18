@@ -16,17 +16,10 @@
     <header class="site-head">
         <div class="container">
             <div class="row middle between">
-                <div class="logo-box">
-                    <a href="#" class="logo-link">
-                        <img class="logo-img-light"
-                            src="https://arun.gbjsolution.com/content/images/2021/05/arun-light-theme-logo.svg"
-                            alt="logo">
-                    </a>
-                    <a href="#" class="logo-link">
-                        <img class="logo-img-dark"
-                            src="https://arun.gbjsolution.com/content/images/2021/12/dark-theme-logo.svg" alt="logo">
-                    </a>
-                </div>
+
+                <a href="#" class="logo-link">
+                    <div class="logo-box"></div>
+                </a>
                 <div class="site-nav">
                     <ul class="site-nav-list row middle">
                         <li class="site-nav-items"><a href="#" class="nav-items-link">home</a></li>
@@ -34,25 +27,27 @@
                         <li class="site-nav-items"><a href="#" class="nav-items-link">elements</a></li>
                         <li class="site-nav-items"><a href="#" class="nav-items-link">membership</a></li>
                         <li class="site-nav-items row ">
-                         <a href="#" class="nav-items-link">more</a>
-                        <i class="bx bx-chevron-down more-down-btn"></i>
-                        <div class="page-down">
-                            <ul class="page-list between">
-                                <li class="page-itmes"><a href="#" class="page-link">tags</a></li>
-                                <li class="page-itmes"><a href="#" class="page-link">authors</a></li>
-                                <li class="page-itmes"><a href="#" class="page-link">monthly archive</a></li>
-                                <li class="page-itmes"><a href="#" class="page-link">yearly archive</a></li>
-                                <li class="page-itmes"><a href="#" class="page-link">contact</a></li>
-                                <li class="page-itmes"><a href="#" class="page-link">get theme</a></li>
+                            <a href="#" class="nav-items-link">more</a>
+                            <i class="bx bx-chevron-down more-down-btn"></i>
+                            <div class="page-down">
+                                <ul class="page-list between">
+                                    <li class="page-itmes"><a href="#" class="page-link">tags</a></li>
+                                    <li class="page-itmes"><a href="#" class="page-link">authors</a></li>
+                                    <li class="page-itmes"><a href="#" class="page-link">monthly archive</a></li>
+                                    <li class="page-itmes"><a href="#" class="page-link">yearly archive</a></li>
+                                    <li class="page-itmes"><a href="#" class="page-link">contact</a></li>
+                                    <li class="page-itmes"><a href="#" class="page-link">get theme</a></li>
 
-                            </ul>
-                        </div>
-                        
+                                </ul>
+                            </div>
+
                         </li>
                         <li class="site-nav-items"><a href="#" class="nav-items-link">sign in</a></li>
                         <li class="site-nav-items"><a href="#" class="nav-items-link">sign up</a></li>
-                        <li class="site-nav-items"><a href="#" class="nav-items-link"><i class='bx bx-search'></i></a></li>
-                        <li class="site-nav-items"><button class="color-changer"><i class="bx bx-moon"></i></button></li>
+                        <li class="site-nav-items"><button id="searchBtn" class="search-btn"><i
+                                    class='bx bx-search'></i></button></li>
+                        <li class="site-nav-items"><button id="modeBtn" class="color-changer"></button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +58,8 @@
             <div class="row middle between">
                 <div class="hero-title">
                     <h2 class="title-name">Hay, I am Arun</h2>
-                    <p class="title-parag">An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and experience.</p>
+                    <p class="title-parag">An architect, software developer, YouTuber and keynote speaker. On this site
+                        I write about my learning and experience.</p>
                     <label for="email " class="label-box row">
                         <input type="email" id="email" name="email" placeholder="Your email address">
                         <button type="submit" class="subscribe">subscribe</button>
@@ -77,13 +73,347 @@
                     </div>
                 </div>
                 <div class="circle-world">
-                    <div class="first-circle circle"></div>
+                    <div class="first-circle "></div>
+                    <div class="first-in-out"></div>
                     <div class="second-circle"></div>
                     <div class="third-circle"></div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="site-main">
+        <div class="container">
+            <h3 class="first-main-title">Featured posts</h3>
+            <div class="content-box row between">
+                <div class="main-img-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content">
+                            Lifestyle
+                        </button>
+                        <i class='bx bxs-star' style='color:#ffd700'></i>
+                    </div>
+                    <p class="post-name">Self-observation is the first step of inner unfolding</p>
+                    <p class="post-parag">
+                        Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath
+                        was inconceivably violent. She asked me a thousand questions in a...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                        <span class="read-time">3 min read</span>
+                        <span class="visibility">Public</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-second-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content">
+                            Health
+                        </button>
+                        <i class='bx bxs-star' style='color:#ffd700'></i>
+                    </div>
+                    <p class="post-name">The mind and body are not separate. what affects one, affects the other</p>
+                    <p class="post-parag">
+                        his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from
+                        the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">Mar 28, 2021</time>
+                        <span class="read-time">3 min read</span>
+                        <span class="visibility">Paid</span>
+                    </div>
+                </div>
+            </div>
+            <h3 class="first-main-title">Latest posts</h3>
+            <div class="content-box row between">
+                <div class="main-img-third-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content">
+                            Nature
+                        </button>
+                    </div>
+                    <p class="post-name">Autumn is a second spring when every leaf is a flower</p>
+                    <p class="post-parag">
+                        She then expatiated very warmly upon the advantages I should reap from her plan; talked in a
+                        high style of my future grandeur; assured me how heartily I should...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                        <span class="read-time">4 min read</span>
+                        <span class="visibility">Public</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-four-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content pink">
+                            Travel
+                        </button>
+
+                    </div>
+                    <p class="post-name">Never let your memories be greater than your dreams</p>
+                    <p class="post-parag">
+                        Before long the searchlight discovered some distance away a schooner with all sails apparently
+                        the same vessel which had been noticed earlier in the evening. The...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                        <span class="read-time">4 min read</span>
+                        <span class="visibility">Members</span>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------------------- -->
+            <div class="prise-box row between">
+                <div class="prise-title">
+                    <p class="prise-title-name">Subscribe to premium membership plan</p>
+                    <p class="prise-title-parag">Get access to all premium content and enjoy reading without any
+                        distraction</p>
+                    <div class="plan-page row middle">
+                        <a href="#" class="page-plan-link">Compare plan </a>
+                        <i class='bx bx-right-arrow-alt' style='color:#ffffff'></i>
+                    </div>
+                </div>
+                <div class="plan-wrapper-inner row middle">
+                    <div class="plan-text-center">
+                        <h5 class="plan-name">yearly</h5>
+                        <div class="price"><sup>$</sup>50</div>
+                        <span class="save">Save 17%</span>
+                        <button class="subscribe now">Subscribe Now</button>
+                    </div>
+                    <div class="plan-text-center">
+                        <h5 class="plan-name">Monthly</h5>
+                        <div class="price price-buttoner"><sup>$</sup>5</div>
+                        <button class="subscribe now">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------------------------------------------- -->
+            <div class="content-box row between">
+                <div class="main-img-five-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content purple">
+                            Food
+                        </button>
+                    </div>
+                    <p class="post-name">Dramatically improve your cooking using just your imagination</p>
+                    <p class="post-parag">
+                        You cannot too assiduously attend to Madame Duval herself; but I would wish you to mix as little
+                        as possible with her associates, who are not likely to be among those...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">May 04, 2021</time>
+                        <span class="read-time">4 min read</span>
+                        <span class="visibility">Paid</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content">
+                            Lifestyle
+                        </button>
+                        <i class='bx bxs-star' style='color:#ffd700'></i>
+                    </div>
+                    <p class="post-name">Self-observation is the first step of inner unfolding</p>
+                    <p class="post-parag">
+                        Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath
+                        was inconceivably violent. She asked me a thousand questions in a...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                        <span class="read-time">3 min read</span>
+                        <span class="visibility">Public</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-six-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content yellow-dark">
+                            Inspiration
+                        </button>
+                    </div>
+                    <p class="post-name">It is during our darkest moments that we must focus to see the light</p>
+                    <p class="post-parag">
+                        Mina took a growing interest in everything and I was rejoiced to see the exigency of affairs was
+                        helping her to forget for a time the terrible experience of the night...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">Apr 24, 2021</time>
+                        <span class="read-time">3 min read</span>
+                        <span class="visibility">Public</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-seven-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content green">
+                            Technology
+                        </button>
+                    </div>
+                    <p class="post-name">Bangladesh has developed plastic alternative using jute</p>
+                    <p class="post-parag">
+                        Dr. Johnson, as usual, spoke contemptuously of Colley Cibber. 'It is wonderful that a man, who
+                        for forty years had lived with the great and the witty, should have acquir...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">Apr 18, 2021</time>
+                        <span class="read-time">3 min read</span>
+                        <span class="visibility">Memebers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-eight-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content purple">
+                            Food
+                        </button>
+
+                    </div>
+                    <p class="post-name">I do not stick to rules when cooking. I rely on my imagination</p>
+                    <p class="post-parag">
+                        I walked down to the station with them, and then wandered through the streets of the little
+                        town, finally returning to the hotel, where I lay upon the sofa and tried to...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">Apr 12, 2021</time>
+                        <span class="read-time">4 min read</span>
+                        <span class="visibility">Public</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box row between">
+                <div class="main-img-second-box"></div>
+                <div class="content-title-box">
+                    <div class="main-btns-box row">
+                        <button class="btn-content">
+                            Health
+                        </button>
+                        <i class='bx bxs-star' style='color:#ffd700'></i>
+                    </div>
+                    <p class="post-name">The mind and body are not separate. what affects one, affects the other</p>
+                    <p class="post-parag">
+                        his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from
+                        the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+                    <div class="post-meta">
+                        <time class="post-date" datetime="2021-05-02">Mar 28, 2021</time>
+                        <span class="read-time">3 min read</span>
+                        <span class="visibility">Paid</span>
+                    </div>
+                </div>
+            </div>
+            <button class="subscribe show">Show More Posts</button>
+
+        </div>
+    </section>
+    <section id="email-box">
+        <div class="container">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 122 55">
+                    <path
+                        d="M80.265 5.637a1.563 1.563 0 000 3.125h.045a1.563 1.563 0 000-3.125h-.045zM59.345 43.791a1.563 1.563 0 000 3.126h24.623a1.563 1.563 0 100-3.126H59.345z">
+                    </path>
+                    <path fill-rule="evenodd"
+                        d="M44.922 0h72.763a4.172 4.172 0 014.159 4.158v45.737a4.17 4.17 0 01-4.158 4.158H44.922a4.17 4.17 0 01-4.158-4.158V4.158A4.17 4.17 0 0144.922 0zm38.774 27.442l16.523-12.393h-5.43a1.563 1.563 0 010-3.126h9.597l4.215-3.161H86.715a1.563 1.563 0 010-3.125h25.328c.204 0 .399.039.578.11l3.504-2.629H46.482l32.43 24.324c.583.444 1.478.722 2.392.718.913.004 1.808-.274 2.392-.718zm6.451-.942l-4.582 3.437c-1.247.929-2.765 1.338-4.262 1.34-1.498-.003-3.015-.412-4.261-1.34L72.46 26.5 46.134 50.876a.2.2 0 01-.01.012l-.01.01-.01.009-.014.013-.006.006-.008.009h70.456l-.023-.023a.337.337 0 01-.035-.035L90.147 26.5zM69.95 24.617L43.883 5.067v43.634l26.066-24.084zm22.71 0l26.065-19.55V48.7L92.658 24.617z"
+                        clip-rule="evenodd"></path>
+                    <path
+                        d="M2.654 23.901a1.563 1.563 0 000 3.125h15.383a1.563 1.563 0 100-3.125H2.654zM24.288 25.464c0-.863.7-1.563 1.563-1.563h9.99a1.563 1.563 0 010 3.125h-9.99c-.863 0-1.563-.7-1.563-1.562zM5.373 17.876c0-.863.7-1.563 1.563-1.563h25.328a1.563 1.563 0 110 3.126H6.936c-.863 0-1.563-.7-1.563-1.563zM22.599 39.077a1.563 1.563 0 000 3.125h14.353a1.563 1.563 0 000-3.125H22.6zM.157 40.64c0-.864.7-1.563 1.562-1.563h14.354a1.563 1.563 0 010 3.125H1.719c-.863 0-1.562-.7-1.562-1.563zM15.662 31.489a1.563 1.563 0 000 3.125h16.602a1.563 1.563 0 100-3.125H15.662zM7.162 33.052c0-.864.7-1.563 1.562-1.563h.344a1.563 1.563 0 110 3.125h-.344c-.863 0-1.562-.7-1.562-1.562z">
+                    </path>
+                </svg>
+            </div>
+            <h3 class="email-tile">Subscribe to newsletter</h3>
+            <p class="email-parag">Stay up to date! Get all the latest posts delivered straight to your inbox.</p>
+            <div class="inputs-box row between">
+                <input type="text" class="email-input" placeholder="Your name">
+                <input type="email" class="email-input" placeholder="Your email address">
+                <button class="subscribe email-btn">Subscribe</button>
+                <div class="circle-best"></div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="site-footer">
+        <div class="container">
+            <div class="footer-inner row between">
+                <div class="footer-desc">
+                    <a href="#">
+                        <div class="footer-logo"></div>
+                    </a>
+                    <p class="footer-text">An architect, software developer, YouTuber and keynote speaker. On this site
+                        I write about my learning and experience.</p>
+
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-title">Features</p>
+                    <ul class="footer-lis ">
+                        <li class="footer-item"><a href="#" class="footer-link">Elements</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Tags</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Authors</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">404 page</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-title">Members</p>
+                    <ul class="footer-lis ">
+                        <li class="footer-item"><a href="#" class="footer-link">Membership</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Sign In</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Sign Up</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-title">About</p>
+                    <ul class="footer-lis ">
+                        <li class="footer-item"><a href="#" class="footer-link">Tag page</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Author page</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-end ">
+                <div class="row between">
+                    <div class="socials row middle">
+                        <p class="socials-par">Follow:</p>
+                        <ul class="socials-list row middle">
+                            <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-twitter'></i></a>
+                            </li>
+                            <li class="socials-item"><a href="#" class="socials-link"><i
+                                        class='bx bxl-facebook'></i></a></li>
+                            <li class="socials-item"><a href="#" class="socials-link"><i
+                                        class='bx bxl-instagram'></i></a></li>
+                            <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-github'></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="copyright">© 2022 Arun Roy - All right Reserved. Published with Ghost</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="modalBox" class="modal-box">
+        <button id="closeBtn" class="close-btn"><i class='bx bx-x'></i></button>
+        <input type="text" class="modal-input" placeholder="Type to search">
+        <p class="modal-text">Press ESC to close.</p>
+        <div class="modal-inner">
+            <h4 class="modal-title">See posts by Popular tags</h4>
+            <ul class="modal-list row">
+                <li class="modal-item"><a href="#" class="modal-link">Inspiration</a></li>
+                <li class="modal-item"><a href="#" class="modal-link">Lifestyle</a></li>
+                <li class="modal-item"><a href="#" class="modal-link">Nature</a></li>
+                <li class="modal-item"><a href="#" class="modal-link">Health</a></li>
+                <li class="modal-item"><a href="#" class="modal-link">Travel</a></li>
+                <li class="modal-item"><a href="#" class="modal-link">Food</a></li>
+                <li class="modal-item"><a href="#" class="modal-link">Technology</a></li>
+            </ul>
+        </div>
+    </section>
+    <script src="main.js"></script>
 </body>
 
 </html>
